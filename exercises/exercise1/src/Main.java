@@ -83,7 +83,9 @@ public class Main {
             }
         }
 //        Set quiz scores of all students
-
+//      Attention here! Java objects are not passed by value, but their references are passed instead.
+//        So, if I declare and initiate only one quizScores array on top of first for loop, the reference would be passed
+//        into the method .setQuizScores, which would set the quizScore of all the student objects the same.
         for (int i=0; i<20; i++) {
             int[] quizScores = new int[15];
             for (int j = 0; j <15 ; j++) {
