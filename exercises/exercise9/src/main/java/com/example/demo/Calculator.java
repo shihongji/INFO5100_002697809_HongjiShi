@@ -108,9 +108,10 @@ public class Calculator extends Application {
             } else if ("+-*/".contains(text)) {
                 operand1 = Double.parseDouble(display.getText());
                 operator = text;
-                tmp = display.getText();
-                display.setText(display.getText() + text);
-//                display.setText("");
+                // TODO: set the screen to display the expression
+//                tmp = display.getText();
+//                display.setText(display.getText() + text);
+                display.setText("");
             } else if ("=".equals(text)) {
                 operand2 = Double.parseDouble(display.getText());
                 double result = 0;
