@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<BookShelf>
+    <Book>
+        <title>Think Like A Rocket Scientist</title>
+        <publishedYear>2020</publishedYear>
+        <numberOfPages>151</numberOfPages>
+        <authors>Ozan Varol</authors>
+    </Book>
+    <Book>
+        <title>Free Software, Free Society</title>
+        <publishedYear>2002</publishedYear>
+        <numberOfPages>230</numberOfPages>
+        <authors>Richard M. Stallman</authors>
+    </Book>
+    <Book>
+        <title>Atomic Habits</title>
+        <publishedYear>2018</publishedYear>
+        <numberOfPages>285</numberOfPages>
+        <authors>James Clear</authors>
+    </Book>
+</BookShelf>
