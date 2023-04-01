@@ -1,14 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="57.0" layoutY="174.0" mnemonicParsing="false" prefWidth="80.0" text="convert" />
-      <Button layoutX="55.0" layoutY="118.0" mnemonicParsing="false" prefWidth="80.0" text="upload" />
-      <Button layoutX="57.0" layoutY="223.0" mnemonicParsing="false" prefWidth="80.0" text="filter" />
-      <Pane layoutX="318.0" layoutY="23.0" prefHeight="200.0" prefWidth="200.0" />
+      <HBox layoutX="150.0" layoutY="100.0" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="7">
+               <HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="8">
+               <HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button layoutX="70.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="9">
+               <HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="125.0" layoutY="152.0" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="4">
+               <HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="5">
+               <HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button layoutX="70.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="6">
+               <HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="100.0" layoutY="204.0" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="1">
+               <HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="2">
+               <HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+            </Button>
+            <Button layoutX="70.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="3">
+               <HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <Button layoutX="306.0" layoutY="100.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="+" />
+      <Button layoutX="333.0" layoutY="152.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="-" />
+      <Button layoutX="358.0" layoutY="204.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="*" />
+      <Button layoutX="384.0" layoutY="256.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="/" />
+      <Button layoutX="73.0" layoutY="256.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="00" />
+      <Button layoutX="124.0" layoutY="256.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="0" />
+      <Button layoutX="176.0" layoutY="256.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="." />
+      <Button layoutX="281.0" layoutY="152.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="&lt;--" />
+      <Button layoutX="256.0" layoutY="204.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="C" />
+      <Button layoutX="228.0" layoutY="256.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="154.0" text="=" />
+      <TextField layoutX="71.0" layoutY="26.0" prefHeight="72.0" prefWidth="365.0" promptText="sadfsdf" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" layoutX="358.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="77.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="52.0" layoutX="385.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="52.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="26.0" x="70.0" />
+      <VBox layoutX="71.0" layoutY="100.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="52.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="52.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="26.0" />
+         </children>
+      </VBox>
    </children>
-</AnchorPane>
+</Pane>
