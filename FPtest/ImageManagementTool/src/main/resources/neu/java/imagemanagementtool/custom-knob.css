@@ -1,0 +1,9 @@
+.custom-knob .knob-background {
+    fill: #ccc;
+    stroke: #999;
+    stroke-width: 3;
+}
+
+.custom-knob .knob-indicator {
+    fill: #333;
+}

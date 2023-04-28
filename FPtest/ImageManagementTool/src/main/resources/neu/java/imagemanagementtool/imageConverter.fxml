@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<?import neu.java.imagemanagementtool.CustomKnob?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" xmlns:custom="http://neu.java.imagemanagementtool">
+   <children>
+      <AnchorPane fx:id="knobContainer" layoutX="200.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: FA9884;">
+         <children>
+            <StackPane fx:id="imageView" layoutX="50.0" layoutY="30.0" prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #577D86;" />
+            <custom:CustomKnob fx:id="formatKnob" />
+            <custom:CustomKnob fx:id="filterKnob" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: FFF3E2;" />
+   </children>
+</AnchorPane>
